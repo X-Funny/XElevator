@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "x:elevator",
+			"materials": {
+				"default": "iron_golem"
+			},
+			"textures": {
+				"default": "textures/entity/elevator"
+			},
+			"geometry": {
+				"default": "geometry.elevator"
+			},
+			"render_controllers": [
+				"controller.render.iron_golem"
+			],
+			"spawn_egg": {
+				"texture": "elevator"
+			},
+		
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					}
+				]
+			}
+		}
+	}
+}

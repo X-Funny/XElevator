@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "test edition RP",
+        "name": "XElevator",
+        "uuid": "58dcea1e-75c1-4477-b9f2-952cae22f2bf",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 16, 200 ]
+    },
+    "modules": [
+        {
+            "description": "test edition RP",
+            "type": "resources",
+            "uuid": "448080b4-2728-4130-924a-87454fde50c6",
+            "version": [0, 0, 1]
+        }
+    ]
+}
